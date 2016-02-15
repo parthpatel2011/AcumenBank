@@ -1,5 +1,6 @@
 package account;
 
+
 import account.CheckingAccount;
 import account.SavingsAccount;
 
@@ -70,13 +71,13 @@ public class AcumenBank {
 		
 	}
 	
-	//print CheckingAccountInfo
+	//print CheckingsAccountInfo
 	private static void printAccountDetails(CheckingAccount account) {
 		System.out.format("Account for %s:\r\n", account.getOwnerName());
 		System.out.format("Balance: $%.2f\r\n", account.getBalance());
 	}
 
-	//print SavingAccountInfo
+	//print SavingsAccountInfo
 	private static void printSavingDetails(SavingsAccount account) {
 		System.out.format("Savings Account for %s:\r\n", account.getOwnerName());
 		System.out.format("Initial Balance: $%.2f\r\n", account.getprincipal());
